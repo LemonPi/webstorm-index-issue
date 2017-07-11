@@ -1,0 +1,17 @@
+{
+  "name": "webstorm-index-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/dp.js",
+  "module": "src/index.js",
+  "scripts": {
+    "test": "mocha test/test.js",
+    "build": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^3.4.2",
+    "webpack": "^3.1.0"
+  }
+}
